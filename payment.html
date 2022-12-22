@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/auth.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/history.css" />
+    <link rel="stylesheet" href="./styles/product.css" />
+    <link rel="stylesheet" href="./styles/payment.css" />
+    <title>Payment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <nav class="navbar navbar-3 p-50">
+        <div class="brand">
+          <img src="./img/logo.png" width="30" height="30" />
+          <h3>Coffee Shop</h3>
+        </div>
+        <div class="p-15 text-thin">
+          <a href="" class="p-30 text-thin">Home</a>
+          <a href="product.html" class="p-30 text-thin">Product</a>
+          <a href="payment.html" class="p-30 text-thin">Your Cart</a>
+          <a href="history.html" class="p-30 text-thin">History</a>
+        </div>
+        <div class="button-navbar navbar p-15">
+          <img src="./img/search.png" width="30" height="30" />
+          <img src="./img/chat.png" width="30" height="30" />
+          <img
+            src="./img/profile.png"
+            width="30"
+            height="30"
+            class="rounded-full"
+          />
+        </div>
+      </nav>
+      <hr />
+    </section>
+    <main class="container pay-bg">
+      <section class="order p-50 mb-5">
+        <h1 class="text-white-1 text-left mb-5">Check out your item now!</h1>
+        <div class="card-p text-center mb-5 p-card-p">
+          <h1 class="mb-5">Order summary</h1>
+          <div class="container flex">
+            <img src="./img/hazelate.png" class="p-10" />
+            <div class="text-left">
+              <p>Hazelnut Latte</p>
+              <p>1x</p>
+              <p>Regular</p>
+            </div>
+            <div class="align flex justify-r">
+              <p class="text-r">IDR 24,0</p>
+            </div>
+          </div>
+          <div class="container flex">
+            <img src="./img/hazelate.png" class="p-10" />
+            <div class="text-left">
+              <p>Hazelnut Latte</p>
+              <p>1x</p>
+              <p>Regular</p>
+            </div>
+            <div class="align flex justify-r">
+              <p>IDR 24,0</p>
+            </div>
+          </div>
+          <hr />
+          <div class="container p-20 space flex">
+            <div class="text-left">
+              <p>SUBTOTAL</p>
+              <p>TAX&FEES</p>
+              <p>SHIPPING</p>
+              <p></p>
+              <p class="text-secondary">TOTAL</p>
+            </div>
+            <div class="text-r">
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+            <div class="text-r">
+              <p>IDR 120.000</p>
+              <p>IDR 20.000</p>
+              <p>IDR 10.000</p>
+              <p></p>
+              <p class="text-secondary">IDR 150.000</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="payment p-120 mb-5">
+        <div>
+          <div class="container align space">
+            <h1 class="text-white-2 text-left ml-5">Address details</h1>
+            <a class="text-white-3 mr-5" href="">edit</a>
+          </div>
+          <div class="card-d text-left mb-5 p-30">
+            <div class="">
+              <p>Delivery to iskandar street</p>
+              <hr />
+              <p>Km 5 refinery road oppsite re public road, effurun, Jakarta</p>
+              <hr />
+              <p>+62 81348287878</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="container align space">
+            <h1 class="text-white-2 text-left ml-5">Payment method</h1>
+          </div>
+          <div class="card-d text-left mb-5 p-30">
+            <div class="">
+              <input type="radio" id="card" name="Payment" value="Card" />
+                <label for="card">Card</label><br />
+              <hr />
+              <input type="radio" id="bank" name="Payment" value="Bank" />
+                <label for="bank">Bank</label><br />
+              <hr />
+              <input type="radio" id="cod" name="Payment" value="CoD" />
+                <label for="cod">Cash on Delivery</label><br />
+            </div>
+          </div>
+        </div>
+        <button
+          class="btn btn-secondary rounded-xl btn-block mb-5 text-third p-30 text-center"
+        >
+          Confirm and pay
+        </button>
+      </section>
+    </main>
+    <footer class="p-10">
+      <section class="container bg-gray">
+        <section class="auth-form p-20 footer-l">
+          <div class="brand">
+            <img src="./img/logo.png" width="30" height="30" />
+            <h3>Coffee Shop</h3>
+          </div>
+          <div>
+            <h5 class="ml-5 p-16 text-gray-0">
+              Coffee Shop is a store that sells some good<br />meals, and
+              especially coffee. We provide<br />high quality beans
+            </h5>
+          </div>
+          <div class="container p-16">
+            <img src="./img/twitter.png" class="p-10 mb-3" />
+            <img src="./img/facebook.png" class="p-10 mb-3" />
+            <img src="./img/ig.png" class="p-10 mb-3" />
+          </div>
+          <div>
+            <a class="p-16">&copy;2020CoffeeShop</a>
+          </div>
+        </section>
+        <section class="container p-10 footer-r flex">
+          <div class="ml-10">
+            <h4>Product</h4>
+            <div class="container">
+              <div>
+                <div class="p-10 ml">Download</div>
+                <div class="p-10 ml">Location</div>
+                <div class="p-10 ml">Blog</div>
+                <div class="p-10">Pricing</div>
+                <div class="p-10">Countries</div>
+              </div>
+            </div>
+          </div>
+          <div class="ml-10">
+            <h4>Engage</h4>
+            <div class="container">
+              <div>
+                <div class="p-10 ml">Coffee Shop?</div>
+                <div class="p-10 ml">FAQ</div>
+                <div class="p-10 ml">Terms of Servuce</div>
+                <div class="p-10">About Us</div>
+                <div class="p-10">Privacy policy</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </footer>
+  </body>
+</html>
